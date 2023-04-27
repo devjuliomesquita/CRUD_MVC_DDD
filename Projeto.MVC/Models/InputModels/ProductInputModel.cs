@@ -5,8 +5,6 @@ namespace Projeto.MVC.Models.InputModels
 {
     public class ProductInputModel
     {
-        [Key]
-        public int ProductId { get; set; }
 
         [Required(ErrorMessage = "Preencha do campo Nome")]
         [MaxLength(150, ErrorMessage = "Máximo de {0} caracteres")]

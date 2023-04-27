@@ -5,9 +5,7 @@ namespace Projeto.MVC.Models.InputModels
 {
     public class ClientInputModel
     {
-        [Key]
-        public int ClientId { get; set; }
-
+        
         [Required(ErrorMessage = "Preencha do campo Nome")]
         [MaxLength(150, ErrorMessage = "Máximo de {0} caracteres")]
         [MinLength(2, ErrorMessage = "Mínimo de {0} caracteres")]
